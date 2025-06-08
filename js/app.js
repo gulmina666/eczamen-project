@@ -1,6 +1,6 @@
 const searchInp = document.querySelector('.header__inp')
 const container = document.querySelector('.products')
-const pagination = document.querySelector('pagination')
+const pagination = document.querySelector('.pagination')
 
 let allProducts = []
 let currentPage = 1
@@ -183,7 +183,7 @@ console.log(updateProduct);
     await fetch (`https://api.escuelajs.co/api/v1/products/${productId}`, {
         method: 'PUT',
         headers: {
-        'Content-Type': 'aplication/json'
+        'Content-Type': 'application/json'
     },
     body: JSON.stringify(updateProduct)
     })
