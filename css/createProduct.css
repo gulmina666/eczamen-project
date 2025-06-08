@@ -1,0 +1,28 @@
+
+.create__block{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    border-radius: 12px;
+   padding-left: 15px;
+
+}
+
+.btn{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 36px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
